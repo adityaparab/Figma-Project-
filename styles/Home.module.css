@@ -113,6 +113,17 @@
   margin-left: 0.5rem;
 }
 
+.ArticlePhotoDiv {
+  background: url('../public/fentyrihana.jpeg');
+  background-size: cover;
+  height: 100%;
+}
+
+.ArticlePhotoDiv .bookmark2 {
+  float: right;
+  margin: 10px;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

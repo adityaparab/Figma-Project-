@@ -17,15 +17,11 @@ export default function article() {
         
 
 
-      <div className={styles.ArticlePhotoDiv, "g-0"}  id="1"  >
+      <div className={`${styles.ArticlePhotoDiv} g-0`}  id="1"  >
 
        {/* Na probe */}
-       <div className={styles.bookmarkDiv2}>
         <Image className={styles.bookmark2} src="/bookmark.png" alt="bookmark" width="10px" height="20px"  />
-       </div>
        {/* Koniec */}
-
-        <Image className={styles.ArticlePhoto} src="/fentyrihana.jpeg"  alt="rihana" width="auto" height="auto" fluid={true}/>
       </div>
       </Col>
        
