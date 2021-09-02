@@ -119,3 +119,297 @@
     flex-direction: column;
   }
 }
+
+/* My CSS CLASSES  */
+.ArticleDiv{
+  border: 2px solid rgba(0, 0, 0, 1);
+  margin: 30px;
+ 
+ 
+}
+
+/* All Big Divs from Article Element */
+.ParentAuthorTopicDiv{
+   
+}
+
+.AuthorDiv{
+  width: 418px;
+  height: 48px;
+  top: -2%;
+  left: 380px;
+  border: 2px solid rgba(0, 0, 0, 1);
+  box-sizing: border-box;
+  width: 100%;
+  
+  padding-left: 10px;
+
+  
+  
+}
+
+.TopicDiv{
+  width: 100%;
+  height: 100%;
+  border: 2px solid #000000;
+   padding-top: 10px;
+  padding-left: 10px;
+
+  
+} 
+
+/* END OF BIG DIVS */
+
+/* Classes for changing the order of elements on smaller devices */
+@media screen and (max-width: 766px){
+  .ParentAuthorTopicDiv{
+    display: flex;
+    flex-wrap: wrap;
+    
+ }
+
+  .AuthorDiv{
+    flex: 1;
+    order: 2;
+    flex-basis: 100%;
+    border: none;
+  }
+  .TopicDiv{
+    flex: 10;
+  order: 1;  
+  flex-basis: 100%;
+  border: none;
+  
+  }
+  
+
+  .ArticlePhoto{
+    /* position: relative; */
+    
+  }
+
+  .bookmarkDiv{
+    border: #fff  !important;
+
+  }
+  .bookmark{
+    display: none;
+    
+  }
+
+  
+  
+
+  /* Display new bookmark and bookmarkDiv */
+  .ArticlePhotoDiv{
+    border: #000000;
+    position: relative;
+  }
+
+  .bookmarkDiv2{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    /* float: right; */
+    height: auto;
+  width: auto;
+  border: 2px solid 	#000000;
+  /* display: inline-block; */
+  color: #000000;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 12px;
+  
+  background-color: white;
+  /* position: relative; */
+  /* top: 18%;
+  left: 85%; */
+  /* -webkit-transform: translate(+1037%,-5%); */
+  /* z-index: 1; */
+  
+  
+  
+  } 
+   .bookmark2 {
+   
+    
+  
+  }
+  .AuthorDiv{
+    background-color: rgba(0, 0, 0, 1);
+  }
+
+  
+
+  
+}  /* The end of media */
+
+
+
+/* Second Bookmark Invisible on Desktop */
+@media screen and (min-width: 767px){
+.bookmarkDiv2 .bookmark2{
+  display: none;
+  
+}
+}
+
+
+/* End of change order classes */
+
+
+.ArticlePhotoDiv{
+  
+}
+
+@media screen and (min-width: 1221px){
+  .ParentAuthorTopicDiv{
+   
+  }
+  .ArticleDiv{
+    max-width: 1410px;
+  }
+  .ArticlePhotoDiv{
+    
+    
+  }
+  .ArticlePhoto{
+    /* object-fit: contain; */
+    max-height:1163px;
+    
+  }
+}
+
+
+
+.ArticlePhoto{
+  
+}
+.ArticleP{
+  
+  max-width: 350px;
+  width: auto;
+  height: 84px;
+  top: 64px;
+  left: 400px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  hyphens: auto;
+}
+
+
+
+
+.Author{
+  padding-top: 15px;
+  font-family: Helvetica Now Text;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: -0.03em;
+width: 69px;
+color:#1300E8;
+display: inline;
+order: 0;
+align-self: center;
+flex-grow: 0;
+margin: 0px 14px 0px 12px;
+display: inline-block;
+}
+.Time{
+  display: inline-block;
+  position: static;
+width: 69px;
+height: 16px;
+left: 73px;
+top: 0px;
+font-family: Helvetica Now Text;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height, or 133% */
+
+letter-spacing: -0.03em;
+
+/* net/color 3 */
+
+color: #788993;
+
+
+/* Inside Auto Layout */
+
+flex: none;
+order: 1;
+align-self: flex-end;
+flex-grow: 0;
+margin: 0px 4px;
+}
+
+.bookmarkDiv{
+  float: right;
+  
+  height: auto;
+width: auto;
+left: 7px;
+top: 2px;
+border: 2px solid 	#000000;
+display: inline-block;
+color: #000000;
+padding-right: 12px;
+padding-left: 12px;
+padding-top: 5px;
+padding-bottom: 12px;
+
+
+}
+.bookmark {
+  
+  
+
+}
+
+
+
+
+
+.button1{
+  width: 73px;
+  height: 22px;
+  display: inline;
+  
+  
+background: #1300E8;
+  color:#fff;
+  border: 2px;
+  box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 1);
+
+border: 2px solid #000000;
+box-sizing: border-box;
+/* XX */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 40px 0px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 14px;
+
+
+letter-spacing: 0.01em;
+text-transform: uppercase;
+
+
+
+
+}
